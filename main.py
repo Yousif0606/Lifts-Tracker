@@ -1,10 +1,8 @@
-from tracker import user_input, log_weight, change_weight
+from tracker import user_input, load_data
 
 def main():
-    print("Hello, Welcome to your gym tracker choose one of the following\nL: log weight\nC:change excersize\nQ: quit")
+    load_data()
     user_input()
-        
-        
 
 
 main()
